@@ -14,7 +14,7 @@ router.post('/otp/send', async (req, res) => {
     };
 
     if (!validator.isEmail(email)) {
-        res.status(400).send({ error: "Invalid email format" });
+        res.status(400).send({ error: "Invalid field format: email" });
         return
     };
 
@@ -35,12 +35,12 @@ router.post('/otp/verify', async (req, res) => {
     };
 
     if (!validator.isEmail(email) || !/^[0-9]{6}$/.test(code)) {
-        res.status(400).send({ error: "Invalid or or expired code" });
+        res.status(400).send({ error: "Invalid fields format: email or code" });
         return
     };
 
     if (!verify(email, code)) {
-        res.status(400).send({ error: "" });
+        res.status(400).send({ error: "Invalid or or expired code" });
         return
     };
 

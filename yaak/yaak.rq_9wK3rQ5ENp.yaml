@@ -1,0 +1,56 @@
+type: http_request
+model: http_request
+id: rq_9wK3rQ5ENp
+createdAt: 2025-04-15T16:43:22.919545
+updatedAt: 2025-04-15T16:52:33.256926
+workspaceId: wk_ftVjWpNCvX
+folderId: fl_uT8twGvpup
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "tasks": [
+        {
+          "id": "e7a09d7b-704c-4c8d-9c55-a9f1a8d394d6",
+          "title": "Buy Groceries",
+          "completed": false
+        },
+        {
+          "id": "a235e1b1-6a70-406b-a4f2-47cc6c64722b",
+          "title": "Project Meeting",
+          "note": "Discuss quarterly plans",
+          "dueDate": 1680307200,
+          "completed": false
+        },
+        {
+          "id": "e6f34b65-37bc-47e3-8b2d-0f73f3b7618c",
+          "title": "Attend Yoga Class",
+          "note": "Enhance health and wellness",
+          "dueDate": 1680393600,
+          "location": "Fitness Center",
+          "category": "Health",
+          "completed": true
+        }
+      ]
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: v4.public.eyJlbWFpbCI6IjAzLmFjdC5jaGVtaXNlQGljbG91ZC5jb20iLCJpYXQiOiIyMDI1LTA0LTE1VDE2OjQ1OjIxLjM0NloifX8ZbHTqmx0QbEVsKTaGWYcB_qmap5bewzbt01spaZM-ExsZgouhnPqRmNUavnpO3Rc_xlWGuBrSRaxBx8cVZwM
+  id: P5nE0dkyTc
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: VzDH9kbDjS
+- enabled: true
+  name: ''
+  value: ''
+  id: 2Y9wH57YBE
+method: PUT
+name: default
+sortPriority: 0.0
+url: localhost:3000/tasks
+urlParameters: []

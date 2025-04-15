@@ -2,9 +2,9 @@ type: folder
 model: folder
 id: fl_SqkJk7hRXa
 createdAt: 2025-04-15T12:34:57.020370
-updatedAt: 2025-04-15T12:35:02.812007
+updatedAt: 2025-04-15T13:39:03.187495
 workspaceId: wk_ftVjWpNCvX
 folderId: null
-name: Tasks
+name: Get Tasks
 description: ''
-sortPriority: 375.0
+sortPriority: 328.125

@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_yeBaXiNKVg
+createdAt: 2025-04-15T13:41:17.341769
+updatedAt: 2025-04-15T14:27:29.919204
+workspaceId: wk_ftVjWpNCvX
+folderId: fl_rrGs3X97CR
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: test
+  id: WBkhUbuXfz
+- enabled: true
+  name: ''
+  value: ''
+  id: u8WCgd9gCY
+method: OPTIONS
+name: invalid header
+sortPriority: 1000.0
+url: localhost:3000/tasks
+urlParameters: []
