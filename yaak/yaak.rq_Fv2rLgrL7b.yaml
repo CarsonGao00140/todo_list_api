@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_Fv2rLgrL7b
 createdAt: 2025-04-15T03:36:47.738446
-updatedAt: 2025-04-15T03:41:44.173237
+updatedAt: 2025-04-15T12:41:46.217320
 workspaceId: wk_ftVjWpNCvX
 folderId: fl_FKk89nHZ64
 authentication: {}
@@ -20,7 +20,7 @@ headers:
   value: application/json
   id: tqe4svPCAK
 method: POST
-name: missing field
+name: missing body
 sortPriority: 0.00090000004
-url: localhost:3000/auth/otp/verify
+url: localhost:3000/login/otp/verify
 urlParameters: []

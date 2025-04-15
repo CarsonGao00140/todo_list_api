@@ -21,7 +21,6 @@ export const send = (email: string) => {
 
 export const verify = (email: string, code: string): boolean => {
     const record = records[email];
-    
     if (record && record.code === code && Date.now() < record.expiry) {
         delete records[email];
         return true

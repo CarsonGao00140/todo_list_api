@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_uS7gjiN8x9
 createdAt: 2025-04-14T23:14:55.715587
-updatedAt: 2025-04-15T03:42:01.575973
+updatedAt: 2025-04-15T12:41:43.498777
 workspaceId: wk_ftVjWpNCvX
 folderId: fl_vSDXu5SbLj
 authentication: {}
@@ -22,5 +22,5 @@ headers:
 method: POST
 name: invalid field
 sortPriority: 2000.0
-url: localhost:3000/auth/otp/send
+url: localhost:3000/login/otp/send
 urlParameters: []

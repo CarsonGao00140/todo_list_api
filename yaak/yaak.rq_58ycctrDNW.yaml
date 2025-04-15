@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_58ycctrDNW
 createdAt: 2025-04-14T22:51:50.352112
-updatedAt: 2025-04-15T03:41:34.269701
+updatedAt: 2025-04-15T12:41:40.983834
 workspaceId: wk_ftVjWpNCvX
 folderId: fl_vSDXu5SbLj
 authentication: {}
@@ -16,7 +16,7 @@ bodyType: null
 description: ''
 headers: []
 method: POST
-name: missing field
+name: missing body
 sortPriority: 1000.0
-url: localhost:3000/auth/otp/send
+url: localhost:3000/login/otp/send
 urlParameters: []
