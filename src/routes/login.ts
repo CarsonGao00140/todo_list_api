@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import validator from 'validator';
+import { object, string } from 'zod';
 
 import { send, verify } from '../services/otp.ts';
 import { issue } from '../services/token.ts';
@@ -13,13 +13,14 @@ router.post('/otp/send', async (req, res) => {
         return
     };
 
-    if (!validator.isEmail(email)) {
+    const { success, data } = string().email().safeParse(email);
+    if (!success) {
         res.status(400).send({ error: "Invalid field format: email" });
         return
     };
 
     try {
-        await send(email);
+        await send(data);
         res.send({ message: "Code sent successfully" })
     } catch (error) {
         res.status(500).send({ error: "Failed to send code" })
@@ -34,17 +35,18 @@ router.post('/otp/verify', async (req, res) => {
         return
     };
 
-    if (!validator.isEmail(email) || !/^[0-9]{6}$/.test(code)) {
+    const { success, data } = string().email().safeParse(email);
+    if (!success || !/^\d{6}$/.test(code)) {
         res.status(400).send({ error: "Invalid fields format: email or code" });
         return
     };
 
-    if (!verify(email, code)) {
+    if (!verify(data, code)) {
         res.status(400).send({ error: "Invalid or or expired code" });
         return
     };
 
-    res.send({ data: { token: await issue(email) } })
+    res.send({ data: { token: await issue(data) } })
 });
 
 export default router

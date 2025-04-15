@@ -2,23 +2,20 @@ type: http_request
 model: http_request
 id: rq_yeBaXiNKVg
 createdAt: 2025-04-15T13:41:17.341769
-updatedAt: 2025-04-15T14:27:29.919204
+updatedAt: 2025-04-15T17:15:17.173871
 workspaceId: wk_ftVjWpNCvX
 folderId: fl_rrGs3X97CR
-authentication: {}
-authenticationType: null
+authentication:
+  token: test
+authenticationType: bearer
 body: {}
 bodyType: null
 description: ''
 headers:
 - enabled: true
-  name: Authorization
-  value: test
-  id: WBkhUbuXfz
-- enabled: true
   name: ''
   value: ''
-  id: u8WCgd9gCY
+  id: jdBvsauTqg
 method: OPTIONS
 name: invalid header
 sortPriority: 1000.0

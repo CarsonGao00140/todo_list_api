@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_YPoykMvscn
 createdAt: 2025-04-15T03:24:52.371700
-updatedAt: 2025-04-15T12:20:38.951013
+updatedAt: 2025-04-15T17:58:01.869924
 workspaceId: wk_ftVjWpNCvX
 folderId: fl_FKk89nHZ64
 authentication: {}
@@ -11,7 +11,7 @@ body:
   text: |-
     {
       "email": "03.act.chemise@icloud.com",
-      "code": "793996"
+      "code": "594044"
     }
 bodyType: application/json
 description: ''

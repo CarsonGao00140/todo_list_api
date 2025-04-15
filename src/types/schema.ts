@@ -2,10 +2,10 @@ import { object, string, number, boolean } from 'zod';
 
 export default object({
     id: string(),
-    title: string(),
-    note: string().optional(),
+    title: string().nonempty(),
+    note: string().nonempty().optional(),
     dueDate: number().optional(),
-    location: string().optional(),
-    category: string().optional(),
+    location: string().nonempty().optional(),
+    category: string().nonempty().optional(),
     completed: boolean()
 })

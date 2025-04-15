@@ -2,23 +2,20 @@ type: http_request
 model: http_request
 id: rq_nNupuCTKtr
 createdAt: 2025-04-15T13:24:58.000703
-updatedAt: 2025-04-15T16:52:45.192400
+updatedAt: 2025-04-15T17:17:43.679513
 workspaceId: wk_ftVjWpNCvX
 folderId: fl_SqkJk7hRXa
-authentication: {}
-authenticationType: null
+authentication:
+  token: ${[ TOKEN ]}
+authenticationType: bearer
 body: {}
 bodyType: null
 description: ''
 headers:
 - enabled: true
-  name: Authorization
-  value: v4.public.eyJlbWFpbCI6IjAzLmFjdC5jaGVtaXNlQGljbG91ZC5jb20iLCJpYXQiOiIyMDI1LTA0LTE1VDE2OjQ1OjIxLjM0NloifX8ZbHTqmx0QbEVsKTaGWYcB_qmap5bewzbt01spaZM-ExsZgouhnPqRmNUavnpO3Rc_xlWGuBrSRaxBx8cVZwM
-  id: WBkhUbuXfz
-- enabled: true
   name: ''
   value: ''
-  id: 68NTqMIVdh
+  id: WNW9fsNdAu
 method: GET
 name: default
 sortPriority: 0.0

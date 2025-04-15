@@ -2,23 +2,20 @@ type: http_request
 model: http_request
 id: rq_fgr8J8MvxZ
 createdAt: 2025-04-15T13:41:29.143508
-updatedAt: 2025-04-15T16:45:02.613238
+updatedAt: 2025-04-15T17:17:51.609774
 workspaceId: wk_ftVjWpNCvX
 folderId: fl_uT8twGvpup
-authentication: {}
-authenticationType: null
+authentication:
+  token: ${[ TOKEN ]}
+authenticationType: bearer
 body: {}
 bodyType: null
 description: ''
 headers:
 - enabled: true
-  name: Authorization
-  value: v4.public.eyJlbWFpbCI6IjAzLmFjdC5jaGVtaXNlQGljbG91ZC5jb20iLCJpYXQiOiIyMDI1LTA0LTE1VDE2OjQ0OjU1LjE2NFoifYJ6Cu0gZPnwE7v3YglO75NbQfLKPiryq6Xb0lvV5ikT58szQXhTkOvP8vOT8EsaaecTn8CLNarUHg_m40RC9g8
-  id: P5nE0dkyTc
-- enabled: true
   name: ''
   value: ''
-  id: hAqIY0DXFG
+  id: SFBXGcEZwQ
 method: PUT
 name: missing field
 sortPriority: 1000.0

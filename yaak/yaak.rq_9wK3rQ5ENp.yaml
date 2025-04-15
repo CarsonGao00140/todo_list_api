@@ -2,11 +2,12 @@ type: http_request
 model: http_request
 id: rq_9wK3rQ5ENp
 createdAt: 2025-04-15T16:43:22.919545
-updatedAt: 2025-04-15T16:52:33.256926
+updatedAt: 2025-04-15T17:17:48.306027
 workspaceId: wk_ftVjWpNCvX
 folderId: fl_uT8twGvpup
-authentication: {}
-authenticationType: null
+authentication:
+  token: ${[ TOKEN ]}
+authenticationType: bearer
 body:
   text: |-
     {
@@ -38,17 +39,13 @@ bodyType: application/json
 description: ''
 headers:
 - enabled: true
-  name: Authorization
-  value: v4.public.eyJlbWFpbCI6IjAzLmFjdC5jaGVtaXNlQGljbG91ZC5jb20iLCJpYXQiOiIyMDI1LTA0LTE1VDE2OjQ1OjIxLjM0NloifX8ZbHTqmx0QbEVsKTaGWYcB_qmap5bewzbt01spaZM-ExsZgouhnPqRmNUavnpO3Rc_xlWGuBrSRaxBx8cVZwM
-  id: P5nE0dkyTc
-- enabled: true
   name: Content-Type
   value: application/json
   id: VzDH9kbDjS
 - enabled: true
   name: ''
   value: ''
-  id: 2Y9wH57YBE
+  id: V3inwkPf8f
 method: PUT
 name: default
 sortPriority: 0.0
