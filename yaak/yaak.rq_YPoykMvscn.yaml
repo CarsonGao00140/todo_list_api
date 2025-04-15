@@ -1,16 +1,17 @@
 type: http_request
 model: http_request
-id: rq_uS7gjiN8x9
-createdAt: 2025-04-14T23:14:55.715587
-updatedAt: 2025-04-15T03:42:01.575973
+id: rq_YPoykMvscn
+createdAt: 2025-04-15T03:24:52.371700
+updatedAt: 2025-04-15T03:37:49.688275
 workspaceId: wk_ftVjWpNCvX
-folderId: fl_vSDXu5SbLj
+folderId: fl_FKk89nHZ64
 authentication: {}
 authenticationType: null
 body:
   text: |-
     {
-      "email": "test"
+      "email": "03.act.chemise@icloud.com",
+      "code": "668463"
     }
 bodyType: application/json
 description: ''
@@ -18,9 +19,9 @@ headers:
 - enabled: true
   name: Content-Type
   value: application/json
-  id: vSDxF0Uafy
+  id: tqe4svPCAK
 method: POST
-name: invalid field
-sortPriority: 2000.0
-url: localhost:3000/auth/otp/send
+name: default
+sortPriority: -0.0001
+url: localhost:3000/auth/otp/verify
 urlParameters: []

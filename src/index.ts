@@ -8,5 +8,5 @@ app.use(express.json());
 app.use('/auth', auth);
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
+    console.log(`Todo list backend listening on port ${port}`)
 })

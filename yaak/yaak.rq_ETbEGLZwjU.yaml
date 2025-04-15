@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_ETbEGLZwjU
 createdAt: 2025-04-14T23:35:08.512667
-updatedAt: 2025-04-15T01:00:05.311973
+updatedAt: 2025-04-15T03:24:41.311160
 workspaceId: wk_ftVjWpNCvX
 folderId: fl_vSDXu5SbLj
 authentication: {}
@@ -21,6 +21,6 @@ headers:
   id: vSDxF0Uafy
 method: POST
 name: default
-sortPriority: 500.0
+sortPriority: 0.0
 url: localhost:3000/auth/otp/send
 urlParameters: []
