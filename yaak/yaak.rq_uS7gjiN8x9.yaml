@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_uS7gjiN8x9
+createdAt: 2025-04-14T23:14:55.715587
+updatedAt: 2025-04-14T23:35:29.965071
+workspaceId: wk_ftVjWpNCvX
+folderId: fl_vSDXu5SbLj
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "email": "test"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: vSDxF0Uafy
+method: POST
+name: invalid email
+sortPriority: 2000.0
+url: localhost:3000/auth/otp/send
+urlParameters: []

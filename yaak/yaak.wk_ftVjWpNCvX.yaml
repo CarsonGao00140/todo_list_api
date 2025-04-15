@@ -1,0 +1,10 @@
+type: workspace
+model: workspace
+id: wk_ftVjWpNCvX
+createdAt: 2025-04-14T22:50:39.263128
+updatedAt: 2025-04-14T22:50:39.263129
+name: todo_list
+description: ''
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0
