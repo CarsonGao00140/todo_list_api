@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { object, string } from 'zod';
+import { string } from 'zod';
 
 import { send, verify } from '../services/otp.ts';
 import { issue } from '../services/token.ts';
